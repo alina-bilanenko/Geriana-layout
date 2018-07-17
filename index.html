@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css"/>
     <link rel="stylesheet" href="css/flex-top-banner.css" type="text/css"/>
+    <link rel="stylesheet" href="css/flex-menu-transparent.css" type="text/css"/>
     <title>Geriana</title>
 </head>
 <body>
 
 <header>
-    <div class="flex-top-banner">
+    <div class="flex-top-banner" id="topHeader">
         <div>
             <img src="logo/logo-3.png" alt="">
             <button class="help">
@@ -34,53 +35,36 @@
                     <li><a href="javascript:void(0)">Submenu 4</a></li>
                 </ul>
             </div>
-            <!--<ul class="top-menu">-->
-            <!--<li><a href="javascript:void(0)">Sign Up</a></li>-->
-            <!--<li><a href="javascript:void(0)">Log In</a></li>-->
-            <!--<li>-->
-            <!--<a href="javascript:void(0)">-->
-            <!--<img src="logo/hamburger-menu-icon.png" alt="">-->
-            <!--<span>Menu</span>-->
-            <!--</a>-->
-            <!--<ul class="submenu">-->
-            <!--<li><a href="javascript:void(0)">Submenu 1</a></li>-->
-            <!--<li><a href="javascript:void(0)">Submenu 2</a></li>-->
-            <!--<li><a href="javascript:void(0)">Submenu 3</a></li>-->
-            <!--<li><a href="javascript:void(0)">Submenu 4</a></li>-->
-            <!--</ul>-->
-            <!--</li>-->
-            <!--</ul>-->
         </nav>
         <!--<button>Call +48 567 365 485</button>-->
     </div>
 
-    <!--<div class="top-menu-transparent">-->
-        <!--<img src="logo/logo-3.png" alt="">-->
-        <!--<button class="help">-->
-            <!--<i class="fas fa-question-circle"></i>-->
-            <!--<span>Help Center</span>-->
-        <!--</button>-->
-        <!--<button>Call US</button>-->
+    <div class="top-menu-transparent">
+        <div>
+            <img src="logo/logo-3.png" alt="">
+            <button class="button-transparent">
+                <i class="fas fa-question-circle"></i>
+                <span>Help Center</span>
+            </button>
+            <button class="button-transparent">Call US</button>
+        </div>
 
-        <!--<nav>-->
-            <!--<ul class="top-menu">-->
-                <!--<li><a href="javascript:void(0)">Sign Up</a></li>-->
-                <!--<li><a href="javascript:void(0)">Log In</a></li>-->
-                <!--<li>-->
-                    <!--<a href="javascript:void(0)">-->
-                        <!--<img src="logo/hamburger-menu-icon.png" alt="">-->
-                        <!--<span>Menu</span>-->
-                    <!--</a>-->
-                    <!--<ul class="submenu">-->
-                        <!--<li><a href="javascript:void(0)">Submenu 1</a></li>-->
-                        <!--<li><a href="javascript:void(0)">Submenu 2</a></li>-->
-                        <!--<li><a href="javascript:void(0)">Submenu 3</a></li>-->
-                        <!--<li><a href="javascript:void(0)">Submenu 4</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</nav>-->
-    <!--</div>-->
+        <nav class="top-menu">
+            <a href="javascript:void(0)">Sign Up</a>
+            <a href="javascript:void(0)">Log In</a>
+            <div class="menu">
+                <img src="logo/hamburger-menu-icon.png" alt="">
+                <a href="javascript:void(0)">Menu</a>
+
+                <ul class="submenu">
+                    <li><a href="javascript:void(0)">Submenu 1</a></li>
+                    <li><a href="javascript:void(0)">Submenu 2</a></li>
+                    <li><a href="javascript:void(0)">Submenu 3</a></li>
+                    <li><a href="javascript:void(0)">Submenu 4</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>
 
 <main>
@@ -264,6 +248,7 @@
         </div>
     </div>
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

@@ -1,10 +1,9 @@
 /*TOP MENU HIDE*/
 
 .flex-top-banner {
-  display: flex;
-  display: -webkit-flex;
+  display: none;
   align-items: center;
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   left: 0;
   top: 0;
@@ -18,7 +17,8 @@
   justify-content: space-between;
 }
 
-.flex-top-banner > div {
+.flex-top-banner > div,
+.top-menu-transparent > div {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -29,7 +29,6 @@
   vertical-align: middle;
   color: #004d80;
   border: 2px solid #005173;
-  opacity: 0.9;
   background-color: #fff;
   text-transform: uppercase;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
@@ -39,6 +38,8 @@
   margin-left: 10px;
 }
 
+/*MENU*/
+
 nav.top-menu {
   display: flex;
   align-items: center;
@@ -46,12 +47,9 @@ nav.top-menu {
 
 nav.top-menu a {
   padding: 10px;
-  color: #0b2a37;
-  background-color: #ffffff;
   text-decoration: none;
   font-weight: 400;
   margin-right: 40px;
-
 }
 
 nav.top-menu a:hover {
@@ -66,6 +64,7 @@ nav.top-menu a:last-child {
 .menu {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 ul.submenu {
@@ -74,9 +73,9 @@ ul.submenu {
   width: 150px;
   right: 0;
   top: 85px;
-  background-color: white;
-  border: 1px solid #ffffff;
-  box-shadow:  0 0 2px -1px rgba(0, 0, 0, 0.2);
+  /*background-color: white;*/
+  /*border: 1px solid #ffffff;*/
+  /*box-shadow:  0 0 2px -1px rgba(0, 0, 0, 0.2);*/
   opacity: 1;
   transition: all 500ms ease;
   transform: rotateX(-90deg);
@@ -90,7 +89,7 @@ ul.submenu:after {
   width: 100%;
   top: -25px;
   height: 25px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 
 ul.submenu > li {
@@ -100,8 +99,8 @@ ul.submenu > li {
 ul.submenu > li > a {
   display: block;
   padding: 10px;
-  color: #0b2a37;
-  background-color: #ffffff;
+  /*color: #0b2a37;*/
+  /*background-color: #ffffff;*/
   text-decoration: none;
 }
 
@@ -114,4 +113,23 @@ ul.submenu > li > a:hover {
   opacity: 1;
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
+}
+
+.flex-top-banner nav.top-menu a {
+  color: #0b2a37;
+  background-color: #ffffff;
+}
+
+.flex-top-banner ul.submenu {
+  background-color: white;
+  border: 1px solid #ffffff;
+}
+
+.flex-top-banner ul.submenu:after {
+  background-color: #ffffff;
+}
+
+.flex-top-banner ul.submenu > li > a {
+  color: #0b2a37;
+  background-color: #ffffff;
 }

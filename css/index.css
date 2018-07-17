@@ -19,6 +19,7 @@ button {
   font-family: 'Maven Pro - Bold', sans-serif;
   font-weight: 700;
   line-height: 100%;
+  cursor: pointer;
 }
 
 button:focus {

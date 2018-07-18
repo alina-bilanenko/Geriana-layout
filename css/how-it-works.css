@@ -1,0 +1,145 @@
+.how-it-works {
+  display: block;
+  width: 100%;
+}
+
+.how-it-works > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.works-plan {
+  display: flex;
+  align-items: center;
+  background-color: #66cfcf;
+  margin-top: -205px;
+  position: relative;
+}
+
+.works-plan > section {
+  flex: 1;
+  width: 0;
+}
+
+.works-plan > section > h2 {
+  font-size: 80px;
+  margin: 182px 0 0 60px;
+}
+
+.works-plan > section > button {
+  padding: 27px 50px 26px 50px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 60px 0 180px 59px;
+}
+
+.works-plan p {
+  color: #ffffff;
+  font-size: 22px;
+  padding-left: 90px;
+  padding-right: 90px;
+  line-height: 26px;
+}
+
+.text-second,
+.text-first {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.text-second {
+  padding-right: 90px;
+  padding-left: 40%;
+}
+
+.text-first {
+  padding-right: 40%;
+  padding-left: 90px;
+}
+
+.steps {
+  text-align: center;
+}
+
+.first,
+.third {
+  text-align: left;
+  position: relative;
+  margin-left: 15%;
+}
+
+.first {
+  margin-top: 8%;
+}
+
+.third {
+
+}
+
+.second,
+.fourth {
+  text-align: right;
+  position: relative;
+  margin-right: 20%;
+  margin-top: 8%;
+}
+
+.first:before {
+  content: url('../logo/search.png');
+  position: absolute;
+  left: 0;
+  top: -25px;
+  margin: 10px;
+}
+
+.first:after,
+.third:after {
+  content: url('../logo/connection-arrow.png');
+  position: absolute;
+  right: 30px;
+  top: -5px;
+  margin: 10px;
+}
+
+.third:before {
+  content: url('../logo/time.png');
+  position: absolute;
+  left: 0;
+  top: -25px;
+  margin: 10px;
+}
+
+.second:after {
+  content: url('../logo/arrow-mini.png');
+  position: absolute;
+  right: 0;
+  top: -25px;
+  margin: 10px;
+}
+
+.second:before {
+  content: url('../logo/connection-arrow-2.png');
+  position: absolute;
+  left: -5px;
+  top: 0;
+  margin: 10px;
+}
+
+.fourth:after {
+  content: url('../logo/dol.png');
+  position: absolute;
+  right: 0;
+  top: -25px;
+  margin: 10px;
+}
+
+
+

@@ -43,10 +43,11 @@ button {
   border-radius: 6px;
   opacity: 0.9;
   font-size: 16px;
-  font-family: 'Maven Pro - Bold', sans-serif;
+  font-family: 'Maven Pro-Bold', sans-serif;
   font-weight: 700;
   line-height: 100%;
   cursor: pointer;
+  background-color: transparent;
 }
 
 button:focus {

@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css"/>
     <link rel="stylesheet" href="css/flex-top-banner.css" type="text/css"/>
     <link rel="stylesheet" href="css/flex-menu-transparent.css" type="text/css"/>
+    <link rel="stylesheet" href="css/carusel.css" type="text/css"/>
     <title>Geriana</title>
 </head>
 <body>
@@ -53,7 +53,7 @@
             <a href="javascript:void(0)">Sign Up</a>
             <a href="javascript:void(0)">Log In</a>
             <div class="menu">
-                <img src="logo/hamburger-menu-icon.png" alt="">
+                <img src="logo/hamburger-menu-icon-white.png" alt="">
                 <a href="javascript:void(0)">Menu</a>
 
                 <ul class="submenu">
@@ -68,16 +68,61 @@
 </header>
 
 <main>
+    <div class="carousel">
+        <input type="radio" checked="checked" id="slide1" class="carousel-selector" name="carousel-selector" />
+        <input type="radio" id="slide2" class="carousel-selector" name="carousel-selector" />
+        <input type="radio" id="slide3" class="carousel-selector" name="carousel-selector" />
 
-    <div>
-        <img src="logo/o6xii90.png" alt="">
-        <img src="logo/o6xof60.png" alt="">
-        <img src="logo/o6i4jl0.png" alt="">
-        <h1>Znajdź  opiekuna</h1>
-        <h2>dla swoich najbliższych</h2>
-        <p>Skontaktuj się bezpośrednio z jedną z 60,000 zarejestrowanych opiekunek</p>
-        <button>ZNAJDŹ OPIEKUNKĘ</button>
+        <ul class="carousel-items">
+            <li class="carousel-item">
+                <img src="logo/o6xii90.png" alt="">
+                <div class="carousel-capture">
+                    <h1>Znajdź  opiekuna</h1>
+                    <h2>dla swoich najbliższych</h2>
+                    <p>Skontaktuj się bezpośrednio z jedną z <a href="">60,000 zarejestrowanych</a> <br>opiekunek</p>
+                    <button>ZNAJDŹ OPIEKUNKĘ</button>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <img src="logo/o6xof60.png" alt="">
+                <div class="carousel-capture">
+                    <h1>Znajdź  opiekuna</h1>
+                    <h2>dla swoich najbliższych</h2>
+                    <p>Skontaktuj się bezpośrednio z jedną z <a href="">60,000 zarejestrowanych</a> <br>opiekunek</p>
+                    <button>ZNAJDŹ OPIEKUNKĘ</button>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <img src="logo/o6i4jl0.png" alt="">
+                <div class="carousel-capture">
+                    <h1>Znajdź  opiekuna</h1>
+                    <h2>dla swoich najbliższych</h2>
+                    <p>Skontaktuj się bezpośrednio z jedną z <a href="">60,000 zarejestrowanych</a> <br>opiekunek</p>
+                    <button>ZNAJDŹ OPIEKUNKĘ</button>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="carousel-labels">
+            <li class="carousel-label">
+                <label for="slide1"></label>
+            </li>
+            <li class="carousel-label">
+                <label for="slide2"></label>
+            </li>
+            <li class="carousel-label">
+                <label for="slide3"></label>
+            </li>
+        </ul>
     </div>
+
+
+
+
+
+
     <div class="seach-top">
         <input type="text" placeholder="Enter the service here ..">
         <button>ZNAJDŹ OPIEKUNKĘ</button>

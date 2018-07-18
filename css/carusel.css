@@ -1,0 +1,144 @@
+.carousel-items, .carousel-labels {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.carousel-item {
+  display: block;
+  float: left;
+}
+
+.carousel {
+  width: 100%;
+  position: relative;
+  background-color: #000000;;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+.carousel-items {
+  width: 300%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: left .5s ease-out;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 33.33333333%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.carousel-item > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.carousel-item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #173153;
+  opacity: 0.4;
+}
+
+.carousel-capture {
+  width: 100%;
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.carousel-capture > p {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.carousel-capture > p > a {
+  color: #8ae2e2;
+  font-family: 'Maven Pro-Bold', sans-serif;
+  font-weight: 700;
+}
+
+.carousel-capture > button {
+  background-color: #ff5151;
+  padding: 28px 50px 27px 50px;
+  border: none;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.carousel-labels {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.carousel-selector {
+  display: none;
+}
+
+.carousel-label {
+  display: inline-block;
+}
+
+.carousel-label label {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  cursor: pointer;
+}
+
+#slide1:checked ~ .carousel-items {
+  left: 0;
+}
+
+#slide1:checked ~ .carousel-labels .carousel-label:nth-child(1) label {
+  background-color: black;
+}
+
+#slide2:checked ~ .carousel-items {
+  left: -100%;
+}
+
+#slide2:checked ~ .carousel-labels .carousel-label:nth-child(2) label {
+  background-color: black;
+}
+
+#slide3:checked ~ .carousel-items {
+  left: -200%;
+}
+
+#slide3:checked ~ .carousel-labels .carousel-label:nth-child(3) label {
+  background-color: black;
+}

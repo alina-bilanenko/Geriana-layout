@@ -9,7 +9,7 @@
   top: 0;
   width: 100%;
   height: 104px;
-  z-index: 2;
+  z-index: 999;
   background-color: #fff;
   padding: 20px 0 21px 30px;
   line-height: 100%;
@@ -46,7 +46,7 @@ nav.top-menu {
 }
 
 nav.top-menu a {
-  padding: 10px;
+  padding: 7px;
   text-decoration: none;
   font-weight: 400;
   margin-right: 40px;
@@ -73,9 +73,6 @@ ul.submenu {
   width: 150px;
   right: 0;
   top: 85px;
-  /*background-color: white;*/
-  /*border: 1px solid #ffffff;*/
-  /*box-shadow:  0 0 2px -1px rgba(0, 0, 0, 0.2);*/
   opacity: 1;
   transition: all 500ms ease;
   transform: rotateX(-90deg);
@@ -89,7 +86,6 @@ ul.submenu:after {
   width: 100%;
   top: -25px;
   height: 25px;
-  /*background-color: #ffffff;*/
 }
 
 ul.submenu > li {
@@ -99,8 +95,6 @@ ul.submenu > li {
 ul.submenu > li > a {
   display: block;
   padding: 10px;
-  /*color: #0b2a37;*/
-  /*background-color: #ffffff;*/
   text-decoration: none;
 }
 

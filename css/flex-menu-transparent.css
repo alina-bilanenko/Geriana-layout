@@ -3,7 +3,7 @@
 .top-menu-transparent{
   display: flex;
   display: -webkit-flex;
-  padding: 17px 19px auto 29px;
+  padding: 17px 19px 0 29px;
   align-items: center;
   position: absolute;
   box-sizing: border-box;
@@ -27,13 +27,14 @@
   text-transform: uppercase;
 }
 
-button-transparent > span{
-  margin-left: 10px;
-}
-
 .top-menu-transparent nav.top-menu a {
   color: #ffffff;
   background-color: transparent;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.top-menu-transparent > nav.top-menu > .menu > a {
+  margin-right: 0;
 }
 
 .top-menu-transparent ul.submenu {

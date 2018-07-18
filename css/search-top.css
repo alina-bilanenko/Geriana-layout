@@ -1,0 +1,23 @@
+.search-top {
+  width: 100%;
+  display: flex;
+  background-color: rgba(223, 240, 240, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.search-top > p {
+  margin: 31px 0;
+  color: #0b2a37;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Maven Pro-Medium', sans-serif;
+
+}
+
+.search-top > p > a{
+  color: #8ae2e2;
+  font-family: 'Maven Pro-Bold', sans-serif;;
+  font-weight: 700;
+  text-decoration: underline;
+}

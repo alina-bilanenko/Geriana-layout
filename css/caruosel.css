@@ -81,6 +81,7 @@
   color: #8ae2e2;
   font-family: 'Maven Pro-Bold', sans-serif;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .carousel-capture > button {
@@ -119,26 +120,26 @@
   cursor: pointer;
 }
 
-#slide1:checked ~ .carousel-items {
+#slide1:checked ~ nav > .carousel-items {
   left: 0;
 }
 
-#slide1:checked ~ .carousel-labels .carousel-label:nth-child(1) label {
+#slide1:checked ~  nav > .carousel-labels .carousel-label:nth-child(1) label {
   background-color: black;
 }
 
-#slide2:checked ~ .carousel-items {
+#slide2:checked ~  nav > .carousel-items {
   left: -100%;
 }
 
-#slide2:checked ~ .carousel-labels .carousel-label:nth-child(2) label {
+#slide2:checked ~  nav > .carousel-labels .carousel-label:nth-child(2) label {
   background-color: black;
 }
 
-#slide3:checked ~ .carousel-items {
+#slide3:checked ~  nav > .carousel-items {
   left: -200%;
 }
 
-#slide3:checked ~ .carousel-labels .carousel-label:nth-child(3) label {
+#slide3:checked ~  nav > .carousel-labels .carousel-label:nth-child(3) label {
   background-color: black;
 }

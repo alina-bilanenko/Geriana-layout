@@ -1,0 +1,25 @@
+.specialists {
+  margin: 101px 41px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+.grid-container p {
+  color: #0b2a37;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.grid-container span {
+  color: #0b2a37;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0 20px;
+}

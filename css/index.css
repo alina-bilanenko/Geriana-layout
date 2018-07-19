@@ -85,7 +85,7 @@ h3 {
   color: #0b2a37;
   font-size: 36px;
   font-weight: 400;
-  line-height: 100px;
+  /*line-height: 100px;*/
 }
 
 .heading2 {
@@ -94,6 +94,14 @@ h3 {
   font-size: 80px;
   font-weight: 400;
   line-height: 100px;
+}
+
+.heading3 {
+  font-family: 'Maven Pro-Medium', sans-serif;
+  color: #0b2a37;
+  font-size: 18px;
+  font-weight: 500;
+  /*line-height: 100px;*/
 }
 
 .text-p {
@@ -114,4 +122,21 @@ h3 {
   cursor: pointer;
   background-color: transparent;
   text-transform: uppercase;
+}
+
+.button-color {
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  /*line-height: 38px;*/
+  text-transform: uppercase;
+  border-radius: 6px;
+  padding: 17px 20px 16px 20px;
+  background-color: #ff5151;
+  opacity: 0.9;
+  margin-top: 35px;
+  margin-bottom: 36px;
+  cursor: pointer;
+  border:none;
 }

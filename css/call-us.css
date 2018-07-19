@@ -1,0 +1,16 @@
+.call-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-direction: column;
+}
+
+.call-us > p {
+  margin-bottom: 0;
+}
+
+.call-us > .heading1 {
+  margin-top: 52px;
+}
+

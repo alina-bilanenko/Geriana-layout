@@ -1,12 +1,17 @@
-// //top scroll
-// $(document).ready(function(){
-//   let viewport = $( window ).width();
-// $(window).scroll(function() {
-//     if (($(this).scrollTop()>200 && viewport > 767) || ($(this).scrollTop()>600 && viewport <= 767)){
-//       $('#topHeader').css({display: 'flex', position: 'fixed', top: '0px'});
-//     } else {
-//       $('#topHeader').css({display: 'none'});
-//     }
-//   })
-// });
-//
+document.addEventListener("DOMContentLoaded", function() {
+  let viewport = document.documentElement.clientWidth;
+
+  window.onscroll = function() {
+
+    let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    if ((scrolled > 200) || (scrolled > 400 && viewport <= 767)){
+
+      Object.assign(document.querySelector('#topHeader').style, {display: 'flex'});
+      Object.assign(document.querySelector('.button-call').style, {display: 'block'});
+
+    } else {
+      Object.assign(document.querySelector('#topHeader').style, {display: 'none'});
+      Object.assign(document.querySelector('.button-call').style, {display: 'none'});
+    }
+  }
+});

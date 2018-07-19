@@ -127,3 +127,20 @@ ul.submenu > li > a:hover {
   color: #0b2a37;
   background-color: #ffffff;
 }
+
+.button-call {
+  display: none;
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  padding: 18px 19px 15px 19px;
+  opacity: 0.9;
+  right: 3%;
+  bottom: 3%;
+  z-index: 999;
+}

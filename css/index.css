@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
+  max-width: 1440px;
 }
 
 header {
@@ -83,4 +84,19 @@ h3 {
   margin-top: 0;
 }
 
+.heading1 {
+  font-family: 'Maven Pro-Black', sans-serif;
+  color: #0b2a37;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+.text-p {
+  font-family: 'Maven Pro-Regular', sans-serif;
+  color: #0b2a37;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
 

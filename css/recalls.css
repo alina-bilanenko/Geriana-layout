@@ -1,0 +1,64 @@
+.recalls {
+  display: block;
+  width: 100%;
+}
+
+.recalls > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.recalls-panel {
+  margin-top: -200px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.heading1 {
+  padding-top: 101px;
+  text-align: center;
+}
+
+.recalls-panel > div {
+  display: grid;
+  padding: 80px 40px;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 67px;
+  grid-row-gap: 50px;
+}
+
+.text-p.fon {
+  background: url('../logo/fon.png') no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 25px 55px 22px;
+  margin: 0;
+}
+
+.profile {
+  text-align: right;
+  position: relative;
+}
+
+.profile > p {
+  margin: 0 20% 0 0;
+}
+
+.profile > img {
+  position: absolute;
+  right: 5%;
+  top: 0;
+}
+
+.name {
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.career {
+  line-height: 26px;
+}

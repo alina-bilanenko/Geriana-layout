@@ -1,0 +1,65 @@
+.our-preferences {
+  display: block;
+  width: 100%;
+}
+
+.our-preferences > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.preference {
+  display: flex;
+  align-items: center;
+  background-color: #005173;
+  margin-top: -205px;
+  position: relative;
+}
+
+.preference > nav,
+.preference > div {
+  flex: 1;
+  width: 0;
+}
+
+.preference > nav {
+  margin: 173px 120px 168px 105px;
+
+}
+
+.preference > nav > ul {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+}
+
+.preference > nav > ul > li {
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 46px;
+  position: relative;
+}
+
+.preference .button-transparent {
+  margin-top: 60px;
+}
+
+.preference:after {
+  content: url('../logo/logo-shape.png');
+  position: absolute;
+  right: 0;
+  bottom: -1%;
+}
+
+.preference > nav > ul > li:before {
+  content: '';
+  position: absolute;
+  border-top: 2px solid #8ae2e2;
+  height: 1px;
+  width: 50px;
+  top: -10px;
+  left: 0;
+}

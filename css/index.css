@@ -35,10 +35,6 @@ body {
   max-width: 1440px;
 }
 
-header {
-  max-width: 1440px;
-}
-
 button {
   padding: 13px 19px 13px 17px;
   border-radius: 6px;
@@ -92,6 +88,14 @@ h3 {
   line-height: 100px;
 }
 
+.heading2 {
+  font-family: 'Maven Pro-Black', sans-serif;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
 .text-p {
   font-family: 'Maven Pro-Regular', sans-serif;
   color: #0b2a37;
@@ -100,3 +104,14 @@ h3 {
   line-height: 22px;
 }
 
+.button-transparent {
+  padding: 27px 50px 26px 50px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+}

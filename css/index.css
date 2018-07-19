@@ -104,6 +104,14 @@ h3 {
   /*line-height: 100px;*/
 }
 
+.heading4 {
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
 .text-p {
   font-family: 'Maven Pro-Regular', sans-serif;
   color: #0b2a37;

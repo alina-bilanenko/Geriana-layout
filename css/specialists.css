@@ -1,25 +1,22 @@
 .specialists {
-  margin: 101px 41px 140px 41px;
+  margin: 50px 41px 140px 41px;
   text-align: center;
 }
 
 .grid-container {
   display: grid;
   justify-items: center;
-  align-items: center;
+  align-items: stretch;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
 }
 
-.grid-container p {
+.grid-container > h6 {
   color: #0b2a37;
-  font-size: 22px;
-  line-height: 26px;
+  margin: 10px;
 }
 
-.grid-container span {
+.grid-container > span {
   color: #0b2a37;
-  font-weight: 400;
-  line-height: 22px;
   margin: 0 20px;
 }

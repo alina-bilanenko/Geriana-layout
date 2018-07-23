@@ -12,21 +12,24 @@
 
 .preference {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   background-color: #005173;
   margin-top: -205px;
   position: relative;
 }
 
+.preference h2 {
+  color: #ffffff;
+}
+
 .preference > nav,
 .preference > div {
   flex: 1;
-  width: 0;
+  align-self: center;
 }
 
 .preference > nav {
-  margin: 173px 120px 168px 105px;
-
+  margin: 9% auto 9% 7%;
 }
 
 .preference > nav > ul {
@@ -36,22 +39,22 @@
 }
 
 .preference > nav > ul > li {
-  line-height: 22px;
-  font-weight: 400;
   color: #ffffff;
   margin-top: 46px;
   position: relative;
 }
 
-.preference .button-transparent {
+.preference .button-find {
   margin-top: 60px;
+  background-color: transparent;
 }
 
-.preference:after {
+.preference > div > img {
   content: url('../logo/logo-shape.png');
   position: absolute;
+  width: 40%;
+  bottom: 0;
   right: 0;
-  bottom: -1%;
 }
 
 .preference > nav > ul > li:before {

@@ -6,18 +6,11 @@
   align-items: center;
 }
 
-.search-top > p {
-  margin: 31px 0;
+.search-top > .text {
   color: #0b2a37;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: 'Maven Pro-Medium', sans-serif;
-
+  line-height: normal;
 }
 
-.search-top > p > a{
-  color: #8ae2e2;
-  font-family: 'Maven Pro-Bold', sans-serif;;
-  font-weight: 700;
+.search-top > .text > .link {
   text-decoration: underline;
 }

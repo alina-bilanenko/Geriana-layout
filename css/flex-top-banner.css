@@ -5,16 +5,20 @@
   align-items: center;
   position: fixed;
   box-sizing: border-box;
-  left: 0;
   top: 0;
   width: 100%;
-  height: 104px;
   z-index: 999;
   background-color: #fff;
-  padding: 20px 0 21px 30px;
+  padding: 20px 0 20px 30px;
   line-height: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   justify-content: space-between;
+  max-width: 1440px;
+  min-width: 480px;
+}
+
+.flex-top-banner > div > img {
+  width: 45%;
 }
 
 .flex-top-banner > div,
@@ -24,39 +28,36 @@
   align-items: center;
 }
 
-.help {
-  margin-left: 30px;
-  vertical-align: middle;
+.flex-top-banner .button-help-center {
   color: #004d80;
   border: 2px solid #005173;
-  background-color: #fff;
-  text-transform: uppercase;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+  vertical-align: middle;
 }
 
-.help > span{
-  margin-left: 10px;
+.flex-top-banner .button-help-center > span{
+  margin-left: 3px;
 }
 
 /*MENU*/
 
 nav.top-menu {
   display: flex;
-  align-items: center;
 }
 
 nav.top-menu a {
   padding: 7px;
   text-decoration: none;
-  font-weight: 400;
-  margin-right: 40px;
+  color: #0b2a37;
+  line-height: 38px;
+  margin-right: 37px;
 }
 
 nav.top-menu a:hover {
   text-decoration: underline;
 }
 
-nav.top-menu a:last-child {
+.top-menu > .menu > a {
   margin-right: 0;
   padding-right: 29px;
 }
@@ -67,15 +68,21 @@ nav.top-menu a:last-child {
   cursor: pointer;
 }
 
+.menu > img {
+  width: 20%;
+}
+
 ul.submenu {
   display: block;
   position: absolute;
   width: 150px;
   right: 0;
-  top: 85px;
+  top: 76px;
   opacity: 1;
   transition: all 500ms ease;
   transform: rotateX(-90deg);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
 }
 
 ul.submenu:after {
@@ -109,11 +116,6 @@ ul.submenu > li > a:hover {
   transform: rotateX(0deg);
 }
 
-.flex-top-banner nav.top-menu a {
-  color: #0b2a37;
-  background-color: #ffffff;
-}
-
 .flex-top-banner ul.submenu {
   background-color: white;
   border: 1px solid #ffffff;
@@ -128,19 +130,10 @@ ul.submenu > li > a:hover {
   background-color: #ffffff;
 }
 
-.button-call {
+.carousel > .button-call {
   display: none;
   position: absolute;
-  color: #ffffff;
-  font-family: 'Maven Pro-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 6px;
-  border: 2px solid #ffffff;
-  padding: 18px 19px 15px 19px;
-  opacity: 0.9;
-  right: 3%;
+  right: 2%;
   bottom: 3%;
-  z-index: 999;
+  z-index: 100;
 }

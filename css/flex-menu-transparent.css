@@ -1,33 +1,38 @@
 /*TOP MENU TRANSPARENT*/
+.menu-mobile {
+  display: none !important;
+}
 
 .top-menu-transparent{
   display: flex;
   display: -webkit-flex;
-  padding: 17px 19px 0 29px;
+  padding: 17px 0px 0 29px;
   align-items: center;
   position: absolute;
   box-sizing: border-box;
-  left: 0;
   top: 0;
   width: 100%;
-  height: 104px;
   z-index: 2;
   background-color: transparent;
   line-height: 100%;
   justify-content: space-between;
+  max-width: 1440px;
+  min-width: 480px;
 }
 
-.button-transparent {
-  margin-left: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-  color: #ffffff;
+.top-menu-transparent .button-help-center {
+  color:#ffffff;
   border: 2px solid #ffffff;
-  background-color: transparent;
-  text-transform: uppercase;
+  margin-left: 30px;
 }
 
-.top-menu-transparent nav.top-menu a {
+.top-menu-transparent .button-call {
+  margin-left: 8px;
+  padding: 10px 18px 9px 17px;
+}
+
+.top-menu-transparent nav.top-menu a,
+.top-menu-transparent ul.submenu > li > a {
   color: #ffffff;
   background-color: transparent;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -39,13 +44,14 @@
 
 .top-menu-transparent ul.submenu {
   background-color: transparent;
+  box-shadow: none;
+  padding-left: 0;
 }
 
 .top-menu-transparent ul.submenu:after {
   background-color: transparent;
 }
 
-.top-menu-transparent ul.submenu > li > a {
-  color: #ffffff;
-  background-color: transparent;
+.top-menu-transparent > div > img {
+  width: 45%;
 }

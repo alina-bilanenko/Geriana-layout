@@ -4,6 +4,7 @@
   list-style: none;
   display: block;
 }
+
 .carousel-item {
   display: block;
   float: left;
@@ -66,30 +67,9 @@
   text-align: center;
 }
 
-.carousel-capture > p {
+.carousel-capture > h2 {
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  color: #ffffff;
-  font-family: 'Maven Pro-Regular', sans-serif;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 38px;
-  padding-bottom: 40px;
-  margin: 0;
-}
-
-.carousel-capture > p > a {
   color: #8ae2e2;
-  font-family: 'Maven Pro-Bold', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.carousel-capture > button {
-  background-color: #ff5151;
-  padding: 28px 50px 27px 50px;
-  border: none;
-  color: #ffffff;
-  opacity: 1;
 }
 
 .carousel-labels {

@@ -1,6 +1,7 @@
 .recalls {
   display: block;
   width: 100%;
+  margin-bottom: 95px;
 }
 
 .recalls > img {
@@ -16,14 +17,14 @@
   position: relative;
 }
 
-.recalls-panel .heading1 {
-  padding-top: 101px;
+.recalls-panel > h4 {
+  padding-top: 50px;
   text-align: center;
 }
 
 .recalls-panel > div {
   display: grid;
-  padding: 80px 40px;
+  padding: 0 40px;
   justify-items: start;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -32,7 +33,8 @@
   grid-row-gap: 50px;
 }
 
-.text-p.fon {
+.text-p {
+  color: #0b2a37;
   background: url('../logo/fon.png') no-repeat;
   background-size: 100% 100%;
   padding: 40px 25px 55px 22px;
@@ -54,11 +56,14 @@
   top: 0;
 }
 
-.name {
+.text-p-name {
+  color: #0b2a37;
   font-weight: 700;
   line-height: 26px;
+  font-family: 'Maven Pro-Black', sans-serif;;
 }
 
-.career {
+.text-p-career {
+  color: #0b2a37;
   line-height: 26px;
 }

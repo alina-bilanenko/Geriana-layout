@@ -62,6 +62,10 @@
   padding-right: 40%;
 }
 
+.third {
+  margin-bottom: 8%;
+}
+
 .second,
 .fourth {
   text-align: right;
@@ -103,8 +107,8 @@
 
 .second > img {
   position: absolute;
-  left: -1%;
-  top: 0;
+  left: 1%;
+  top: 12%;
 }
 
 .fourth h6:after {

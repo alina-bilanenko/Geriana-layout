@@ -189,18 +189,18 @@
   .first > img,
   .second > img,
   .third > img {
-    width: 40%;
+    width: 35%;
   }
 
   .first > img,
   .third > img {
     right: 1%;
-    top: 18%;
+    top: 10%;
   }
 
   .second > img {
     left: 1%;
-    top: 18%;
+    top: 0;
   }
 
   .first, .third {
@@ -499,6 +499,10 @@
     top: -15%;
   }
 
+  .third {
+    margin-bottom: 10%;
+  }
+
   /*recalls.css*/
   .recalls {
     margin-bottom: 50px;
@@ -683,6 +687,10 @@
   .second > img {
     left: 3%;
     top: -15%;
+  }
+
+  .third {
+    margin-bottom: 10%;
   }
 
   /*!*recalls.css*!*/

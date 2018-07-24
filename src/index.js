@@ -1,4 +1,15 @@
 import "./css/index.css";
+import "./css/flex-top-banner.css";
+import "./css/flex-menu-transparent.css";
+import "./css/caruosel.css";
+import "./css/search-top.css";
+import "./css/specialists.css";
+import "./css/how-it-works.css";
+import "./css/recalls.css";
+import "./css/our-preferences.css";
+import "./css/call-us.css";
+import "./css/footer.css";
+import "./css/media.css";
 
 document.addEventListener("DOMContentLoaded", function() {
 

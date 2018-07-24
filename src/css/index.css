@@ -1,13 +1,167 @@
-@import url("general.css");
-@import url("flex-top-banner.css");
-@import url("flex-menu-transparent.css");
-@import url("caruosel.css");
-@import url("search-top.css");
-@import url("specialists.css");
-@import url("how-it-works.css");
-@import url("recalls.css");
-@import url("our-preferences.css");
-@import url("call-us.css");
-@import url("footer.css");
-@import url("media.css");
+@font-face {
+  font-family: "Maven Pro-Black";
+  src: url("../fonts/MavenPro-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Maven Pro-Bold";
+  src: url("../fonts/MavenPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Maven Pro-Medium";
+  src: url("../fonts/MavenPro-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Maven Pro-Regular";
+  src: url("../fonts/MavenPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html, body {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 480px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Maven Pro-Black', sans-serif ;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+h3 {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 100px;
+  margin: 0;
+}
+
+h4 {
+  color: #0b2a37;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.link {
+  color: #8ae2e2;
+  font-family: 'Maven Pro-Bold', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h6 {
+  color: #ffffff;
+  font-family: 'Maven Pro-Bold', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.text {
+  font-family: 'Maven Pro-Medium', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-text {
+  color: #ffffff;
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+button {
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.button-help-center {
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 16px;
+  opacity: 0.9;
+  padding: 10px 12px 9px 12px;
+  background-color: transparent;
+}
+
+.button-call {
+  color: #ffffff;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 10px 16px 10px 16px;
+  opacity: 0.9;
+  background-color: transparent;
+}
+
+.button-find-carousel {
+  padding: 25px 50px 25px 49px;
+  background-color: #ff5151;
+  color: #ffffff;
+  font-family: 'Maven Pro-Bold', sans-serif;
+  font-size: 18px;
+}
+
+.button-find {
+  padding: 23px 47px 22px 47px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 18px;
+}
+
+.button-call-us-background {
+  padding: 10px 16px 10px 16px;
+  background-color: #ff5151;
+  color: #ffffff;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 16px;
+  opacity: 0.9;
+}
 
